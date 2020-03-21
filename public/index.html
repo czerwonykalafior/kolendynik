@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -24,20 +24,104 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+  <title>React App</title>
+</head>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  
+  <div class="container">
+  <nav class="navBar">
+    <ul class="navList">
+      <li><a href="/lista">Pokaż wszystkie piosenki</a></li>
+      <li><a href="/biesiada">Usiądź z innymi</a></li>
+    </ul>
+  </nav>
+  <nav class="ABC">
+    <ul class="navList">
+      <li><a href="/a">ABC</a></li>
+      <li><a href="/b">DEF</a></li>
+      <li><a href="/c">GHI</a></li>
+      <li><a href="/d">JKL</a></li>
+      <li><a href="/d">MNO</a></li>
+      <li><a href="/d">PRS</a></li>
+      <li><a href="/d">TW</a></li>
+    </ul>
+  </nav>
+  <nav class="transpose">
+    <ul class="navList">
+      <li><a href="#">C</a></li>
+      <li><a href="#">G</a></li>
+      <li><a href="#">D</a></li>
+      <li><a href="#">F</a></li>
+      <li><a href="#">Reszta ...</a></li>
+    </ul>
+  </nav>
+  <article class="song">
+    <div class="line">  F      C7    F                  B       F  G  C</div>
+    <div class="line">  Anioł pasterzom mówił Chrystus się wam narodził.</div>
+    <div class="line">  a      B   a      C7     F   G    C   a    C7       F  G  C   F       B   F   C   F</div>
+    <div class="line">  W Betlejem nie bardzo podłym mieście, narodził się w ubóstwie, Pan wszego stworzenia.</div>
+    <br>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    <div class="line">  F          C7   F               B      F G C</div>
+    <div class="line">  Chcąc się dowiedzieć tego poselstwa wesołego.</div>
+    <div class="line">  a    B  a     C7     F   G  C   a    C7    F    G     C    F   B   F  C   F</div>
+    <div class="line">  Bieżeli do Betlejem skwapliwie, znaleźli Dziecię w żłobie, Maryję z Józefem.</div>
+    <br>
+
+    <div class="line">  F    C7      F               B       F G C</div>
+    <div class="line">  Taki Pan chwały wielkiej uniżył się Wysoki.</div>
+    <div class="line">  a    B  a     C7    F  G C  a        C7   F G C   F      B  F    C   F</div>
+    <div class="line">  Pałacu kosztownego żadnego nie miał zbudowanego, Pan wszego stworzenia.</div>
+    <br>
+
+    <div class="line">  F     C7        F                B      F G C</div>
+    <div class="line">  Bogu bądź cześć i chwała, która by nie ustała.</div>
+    <div class="line">  a      B  a      C7   F G C   a     C7   F G C   F       B  F C F</div>
+    <div class="line">  Jak Ojcu, tak i Jego Synowi, i Świętemu Duchowi w Trójcy jedynemu.</div>
+    <br>
+
+    <div class="line">  F     C7        F                B      F G C</div>
+    <div class="line">  Bogu bądź cześć i chwała, która by nie ustała.</div>
+    <div class="line">  a      B  a      C7   F G C   a     C7   F G C   F       B  F C F</div>
+    <div class="line">  Jak Ojcu, tak i Jego Synowi, i Świętemu Duchowi w Trójcy jedynemu.</div>
+    <br>
+
+    <div class="line">  F     C7        F                B      F G C</div>
+    <div class="line">  Bogu bądź cześć i chwała, która by nie ustała.</div>
+    <div class="line">  a      B  a      C7   F G C   a     C7   F G C   F       B  F C F</div>
+    <div class="line">  Jak Ojcu, tak i Jego Synowi, i Świętemu Duchowi w Trójcy jedynemu.</div>
+    <br>
+
+    <div class="line">  F     C7        F                B      F G C</div>
+    <div class="line">  Bogu bądź cześć i chwała, która by nie ustała.</div>
+    <div class="line">  a      B  a      C7   F G C   a     C7   F G C   F       B  F C F</div>
+    <div class="line">  Jak Ojcu, tak i Jego Synowi, i Świętemu Duchowi w Trójcy jedynemu.</div>
+    <br>
+
+    <div class="line">  F     C7        F                B      F G C</div>
+    <div class="line">  Bogu bądź cześć i chwała, która by nie ustała.</div>
+    <div class="line">  a      B  a      C7   F G C   a     C7   F G C   F       B  F C F</div>
+    <div class="line">  Jak Ojcu, tak i Jego Synowi, i Świętemu Duchowi w Trójcy jedynemu.</div>
+    <br>
+
+    <div class="line">  F     C7        F                B      F G C</div>
+    <div class="line">  Bogu bądź cześć i chwała, która by nie ustała.</div>
+    <div class="line">  a      B  a      C7   F G C   a     C7   F G C   F       B  F C F</div>
+    <div class="line">  Jak Ojcu, tak i Jego Synowi, i Świętemu Duchowi w Trójcy jedynemu.</div>
+    <br>
+
+    <div class="line">  F     C7        F                B      F G C</div>
+    <div class="line">  Bogu bądź cześć i chwała, która by nie ustała.</div>
+    <div class="line">  a      B  a      C7   F G C   a     C7   F G C   F       B  F C F</div>
+    <div class="line">  Jak Ojcu, tak i Jego Synowi, i Świętemu Duchowi w Trójcy jedynemu.</div>
+  </article>
+</div>
+
+
+
+</body>
+
 </html>

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+.navBar,
+.ABC,
+.transpose {
+    justify-content: space-around;
+}
+
+.navBar {
+    grid-area: navBar;
+}
+
+.ABC {
+    grid-area: ABC;
+}
+
+.transpose {
+    grid-area: transpose;
+}
+
+ul.navList {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.navList li {
+    flex: 1 1 0;
+}
+
+ul.navList a {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    background: #333333;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+ul.navList a:hover {
+    background: #555;
+    font-weight: bold;
+}
+
+.song {
+    grid-area: song;
+    padding: 10px;
+    font-family: "Inconsolata", sans-serif;
+    font-size: 29px;
+    line-height: 1.5em;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC ABC"
+        "transpose transpose transpose transpose transpose transpose transpose transpose transpose transpose transpose transpose"
+        "song song song song song song song song song song song ."
+        ". . . . . . . . . . . . "
+        ". . . . . . . . . . . navBar"
+}
+
+.line {
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+    font-family: "Inconsolata", sans-serif;
+}
